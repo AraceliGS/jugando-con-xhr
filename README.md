@@ -1,10 +1,10 @@
-# **XHR Project Demo**
+# **Jugando con XHR**
 
 ![Página Web](assets/images/website.JPG)
 
 ## **Objetivo**
 
-Esta aplicación web tiene como objetivo brindar un artículo al usuario según la palabra clave que haya ingresado en el buscador.
+Esta aplicación web tiene como objetivo brindar varios artículos al usuario según la palabra clave que haya ingresado en el buscador y darle a este la posibilidad de leerlos completos.
 
 ## **Herramientas Tecnológicas**
 
@@ -32,4 +32,6 @@ Esta aplicación web tiene como objetivo brindar un artículo al usuario según 
 
 * Da click al botón ```Submit```.
 
-* Le aparece un artículo de lo que busca.
+* Le aparecen varios artículos de lo que busca.
+
+* Sí da click al ícono de la izquierda, el navegador dirigirá al usuario a la página donde se encuentra el artículo completo.
