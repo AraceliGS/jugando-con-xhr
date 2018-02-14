@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Haciendo más solicitudes asíncronas</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="masthead">
+    <h1>¿Qué te interesa hoy?</h1>
+    <div>
+      <form id="search-form" class="search-article-form">
+        <label for="search-keyword" class="visuallyhidden">¿Qué buscamos?</label>
+        <input id="search-keyword" class="search-input" type="text" name="search-keyword" placeholder="e.g. Android" required>
+        <input id="submit-btn" class="button" type="submit" value="Submit">
+      </form>
+    </div>
+  </header>
+  <!-- Contenido Principal/Cuerpo -->
+  <div>
+    <ul id="response-container" class="articleContainer"></ul>
+  </div> 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

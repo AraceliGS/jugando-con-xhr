@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em 0;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+/* Estilos al encabezado */
+
+.masthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFC433;
+  padding: 0 2em 3em;
+}
+
+/* Estilos al formulario */
+
+.search-article-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo al label */
+
+.visuallyhidden {
+  display: none;
+}
+
+/* Estilo al input para buscar */
+
+.search-input {
+  padding: 0.5em 8em 0.5em 1em;
+}
+
+/* Estilos al button */
+
+.button {
+  background-color: #3498DB;
+  border: #3498DB;
+  color: white;
+  border-radius: 4px;
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  margin-top: 1.5em;
+}
+
+/* Estilos a la etiqueta ul */
+.articleContainer {
+  margin-top: 2em;
+  padding: 0 3.5em;
+}
+/* Estilos a los artículos */
+
+.articleClass {
+  background-color: #F2F3F4;
+  font-size: 1.3em;
+  list-style: none;
+  text-align: center;
+  padding: 0.6em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.articleTitle {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.articleBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-file-alt {
+  margin-right: 0.8em;
+  font-size: 2em;
+}
+
+.text-align {
+  text-align: left;
+}
+
+@media(min-width: 590px) {
+  /* Estilos al formulario y elementos */
+  .search-article-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-input {
+    padding: 0.8em 22em 0.8em 1em;
+  }
+  
+  .button {
+    margin-top: 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .articleTitle {
+    font-size: 1.3em;
+  }
+}
