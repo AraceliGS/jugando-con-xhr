@@ -1,4 +1,4 @@
-# **Jugando con XHR**
+# **News App**
 
 Esta aplicación web tiene como objetivo brindar varios artículos al usuario según la palabra clave que haya ingresado en el buscador y darle a este la posibilidad de leerlos completos.
 
