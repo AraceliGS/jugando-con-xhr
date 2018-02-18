@@ -2,7 +2,7 @@
 
 Esta aplicación web tiene como objetivo brindar varios artículos al usuario según la palabra clave que haya ingresado en el buscador y darle a este la posibilidad de leerlos completos.
 
-![image](https://user-images.githubusercontent.com/32301650/36358138-2d804136-14d7-11e8-816a-1c8540efd3a6.png)
+![news-app-preview](https://user-images.githubusercontent.com/32301650/36358138-2d804136-14d7-11e8-816a-1c8540efd3a6.png)
 
 ## **Desarrollado para**
 
