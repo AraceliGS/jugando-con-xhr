@@ -13,19 +13,21 @@ form.addEventListener('submit', function(event) {
 function addNews() {
   const data = JSON.parse(this.responseText);
   console.log(data.response);
-  let article = data.response.docs.forEach(function(el) { 
-    const title = el.headline.main;
-    const snippet = el.snippet;
-    const url = el.web_url;
+  if (data.response.meta.hits !== 0 && !(responseContainer.innerHTML)) {
+    let article = data.response.docs.forEach(function(el) { 
+      const title = el.headline.main;
+      const snippet = el.snippet;
+      const url = el.web_url;
+    
+      let li = document.createElement('li');
+      li.className = 'articleClass';
+      li.innerHTML = `<h2 class="articleTitle">${title}</h2><div class="articleBody"><a href="${url}" target="_blank"><i class="far fa-file-alt"></i><span class="text-align"></a>${snippet}</span></div>`;
+    
+      responseContainer.appendChild(li);
   
-    let li = document.createElement('li');
-    li.className = 'articleClass';
-    li.innerHTML = `<h2 class="articleTitle">${title}</h2><div class="articleBody"><a href="${url}" target="_blank"><i class="far fa-file-alt"></i><span class="text-align"></a>${snippet}</span></div>`;
-  
-    responseContainer.appendChild(li);
-
-    return li;
-  });
+      return li;
+    });
+  }
 }
 
 function handleError() {
